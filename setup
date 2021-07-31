@@ -2,4 +2,6 @@ pkg uptade
 pkg upgrade 
 pkg install git
 git clone https://github.com/MasterDevX/Termux-Java.git 
+cd Termux-Java 
+chmod +x installjava
 bash installjava
