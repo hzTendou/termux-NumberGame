@@ -1,3 +1,5 @@
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Paketler yükleniyor... \e[0m\n"
+printf "\e[0m\n"
 pkg uptade 
 pkg upgrade 
 pkg install git
@@ -5,3 +7,5 @@ git clone https://github.com/MasterDevX/Termux-Java.git
 cd Termux-Java 
 chmod +x installjava
 bash installjava
+printf "\e[0m\n" 
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m İndirme tamamlandı! !! \e[0m\n"
