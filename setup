@@ -10,3 +10,4 @@ gem install lolcat
 printf "\e[0m\n"
 clear
 toilet -f big ' Tendou' -F gay | lolcat
+python game.py
