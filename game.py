@@ -3,11 +3,11 @@ loop = 1
 while loop == 1: 
 number = random.randint(1, 10)
 
-player_name = input("Merhaba adın nedir?")
+player_name = input("Merhaba adın nedir?\n")
 
 number_of_guesses = 0
 
-print('Tamam! '+ player_name+ ' 1 ile 10 arasında bir sayı tahmin ediyorum: ')
+print('Tamam! '+ player_name+ ' 1 ile 10 arasında bir sayı tahmin ediyorum: \n ')
 
 while number_of_guesses < 5:
 
@@ -29,7 +29,7 @@ while number_of_guesses < 5:
 
 if guess == number:
 
-    print('içindeki sayıyı tahmin ettin ' + str(number_of_guesses) + ' tries!')
+    print('içindeki sayıyı tahmin ettin ' + str(number_of_guesses) + ' deneme!')
 
 else:
 
