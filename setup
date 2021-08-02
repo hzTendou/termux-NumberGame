@@ -4,5 +4,9 @@ pkg uptade
 pkg upgrade 
 pkg install python 
 pkg install python2 
-printf "\e[0m\n" 
-printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m İndirme tamamlandı! !! \e[0m\n"
+pkg install python3 
+pkg install toilet -y 
+gem install lolcat
+printf "\e[0m\n"
+clear
+toilet -f big ' Tendou' -F gay | lolcat
