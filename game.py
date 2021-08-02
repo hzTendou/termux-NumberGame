@@ -1,5 +1,6 @@
-import random
-
+import random 
+loop = 1
+while loop == 1: 
 number = random.randint(1, 10)
 
 player_name = input("Merhaba adın nedir?")
