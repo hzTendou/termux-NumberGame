@@ -1,36 +1,36 @@
 import random 
 loop = 1
 while loop == 1: 
-number = random.randint(1, 10)
+   number = random.randint(1, 10)
 
-player_name = input("Merhaba adın nedir?\n")
+   player_name = input("Merhaba adın nedir?\n")
 
-number_of_guesses = 0
+   number_of_guesses = 0
 
-print('Tamam! '+ player_name+ ' 1 ile 10 arasında bir sayı tahmin ediyorum: \n ')
+   print('Tamam! '+ player_name+ ' 1 ile 10 arasında bir sayı tahmin ediyorum: \n ')
 
-while number_of_guesses < 5:
+   while number_of_guesses < 5:
 
-    guess = int(input())
+       guess = int(input())
 
-    number_of_guesses += 1
+       number_of_guesses += 1
 
-    if guess < number:
+       if guess < number:
 
-        print('Tahminin çok düşük')
+          print('Tahminin çok düşük')
 
-    if guess > number:
+       if guess > number:
 
-        print('Tahminin çok yüksek')
+          print('Tahminin çok yüksek')
 
-    if guess == number:
+       if guess == number:
 
-        break
+          break
 
-if guess == number:
+       if guess == number:
 
-    print('içindeki sayıyı tahmin ettin ' + str(number_of_guesses) + ' deneme!')
+          print('içindeki sayıyı tahmin ettin ' + str(number_of_guesses) + ' deneme!')
 
-else:
+       else:
 
-    print('Sayıyı tahmin edemedin, sayı ' + str(number))
+          print('Sayıyı tahmin edemedin, sayı ' + str(number))
