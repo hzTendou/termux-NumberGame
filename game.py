@@ -17,4 +17,3 @@ while loop == 1:
           print('Guess is higher than number')
        if guess == number:
           print('You're found true number with ' + str(number_of_guesses) + ' trys!')
-   break
